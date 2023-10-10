@@ -8,10 +8,27 @@
     position: absolute;
     bottom: 0;
     width: 90vw;
+    height: 60px;
     padding-left: 5vw;
     padding-right: 5vw;
 }
 
 .footer-item{
     width: 33.33%;
+}
+
+.github{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.github > img {
+    width: 30px;
+    height: 30px;
 }
